@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.login-form{
+    width: 80vw;
+  margin-top: 50px;
+  margin-left: 100px;
+    height: 80vh;
+   background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    box-shadow: 5px 5px 17px 0px black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.form-header h1{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    margin-top: 10%;
+    
+}
+.form{
+    width: 40vw;
+}
+.img{
+    width: 40vw;
+    height: 80vh;
+}
+.icon a i{
+    padding: 5px;
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px;
+    }
+    .text{
+        width: 20vw;
+        height: 5vh;
+    }
+    .email{
+        width: 20vw;
+        height: 5vh;
+    }
+    .pass{
+        width: 20vw;
+        height: 5vh;
+    }
+    .rpass{
+        width: 20vw;
+        height: 5vh;
+    }
+    .box{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button{
+        color: white;
+        background-color: rgb(24, 27, 200);
+        border: none;
+        border-radius: 5px;
+        width: 10vw;
+        height: 5vh;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
